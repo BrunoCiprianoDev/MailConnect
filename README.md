@@ -1,6 +1,6 @@
 <h1>
     <img src="./docs/icon-main.png" width="50" height="50">
-    MainConnect
+    MaiLConnect
 </h1>
 
 <h2>
