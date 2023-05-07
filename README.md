@@ -4,7 +4,7 @@
 </h1>
 
 <h2>
-    <img src="./docs/icon-description" width="25" height="25">
+    <img src="./docs/icon-description.png" width="25" height="25">
     Description
 </h2>
 
