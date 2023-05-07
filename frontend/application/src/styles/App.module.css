@@ -1,0 +1,6 @@
+.layout {
+  width: 100vw;
+  min-height: 100vh;
+  padding-left: 3.0em;
+  box-sizing: border-box;
+}

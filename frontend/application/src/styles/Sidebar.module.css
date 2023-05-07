@@ -1,0 +1,75 @@
+/*Main container*/
+.MainContainer {
+    padding-top: 1em;
+    transition: 0.2s;
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(27, 27, 27, 0.95);
+    height: 100%;
+    width: 3em;
+    box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.NavLink p {
+    display: flex;
+    visibility: hidden;
+}
+
+.MainContainer:hover {
+    transition: 0.2s;
+    width: 11em;
+}
+
+.MainContainer:hover p {
+    text-decoration: none;
+    display: flex;
+    visibility: visible;
+    color: white;
+    width: 100%;
+    font-size: 0.9em;
+    padding-top: 0.7em;
+    padding-left: 1em;
+    transition-delay: 0.1s;
+}
+
+/*Container of options*/
+.NavContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.NavLink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 4px;
+    padding-left: 0.7em;
+    height: 2.7em;
+}
+
+.NavLink:hover {
+    background-color: rgba(27, 27, 27, 0.95);
+}
+
+.NavLink img {
+    display: inline;
+    height: 1.5em;
+}
+
+@media screen and (max-width: 800px) {
+    .MainContainer:hover{
+        z-index: 100;
+        position: fixed;
+        background-color: rgba(27, 27, 27, 0.95);
+        height: 100%;
+        width: 3em;
+        box-shadow: 2px 1px 5px 0px rgba(0,0,0,0.75);
+    } 
+    
+    .MainContainer:hover p {
+        display: none;
+    }
+    
+}
